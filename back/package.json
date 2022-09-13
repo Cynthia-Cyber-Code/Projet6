@@ -1,0 +1,28 @@
+{
+  "name": "hot-takes",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "node-pre-gyp": "^0.17.0",
+    "password-validator": "^5.3.0",
+    "file-system": "^2.2.2",
+    "nodemon": "^2.0.14",
+    "path": "^0.12.7",
+    "express": "^4.17.1"
+  }
+}
